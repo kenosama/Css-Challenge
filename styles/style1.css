@@ -44,4 +44,8 @@ body {
   border-radius: 5px;
   color: white;
   border: solid #544494 2px;
+}
+.card button:hover {
+  background-color: white;
+  color: #3e2895;
 }/*# sourceMappingURL=style1.css.map */
