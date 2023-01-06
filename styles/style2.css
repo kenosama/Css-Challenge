@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #FFF;
+  background-color: #fff;
   font-family: sans-serif;
   letter-spacing: -0.5px;
   color: #697397;
@@ -44,7 +43,7 @@ body .container .footer_menu h1 {
   font-size: 18px;
   margin-bottom: 25px;
   font-weight: 700;
-  color: #161d42;
+  color: #1c244b;
 }
 body .container .footer_menu ul {
   list-style-type: none;

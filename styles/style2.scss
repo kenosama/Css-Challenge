@@ -1,87 +1,83 @@
-//import the font: i have bad eye for that so i'm sure it wont be the same
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);
 $dark: #1c244b;
 $light: #697397;
 
 * {
-    margin: 0;
-    padding: 0;
-    // outline: solid 2px limegreen;
-  }
-  
-  body {
-    background-color: #FFF;
-    font-family:  sans-serif;
-    letter-spacing: -0.5px;
-    color: $light;
-    width: 100vw;
-    height: 100vh;
-  
-    .container {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      padding: 20px;
-  
-      .slogan {
-        grid-column: 1 / span 4;
-        font-weight: 400;
-       p{
+  margin: 0;
+  padding: 0;
+  // outline: solid 2px limegreen;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  letter-spacing: -0.5px;
+  color: $light;
+  width: 100vw;
+  height: 100vh;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 20px;
+
+    .slogan {
+      grid-column: 1 / span 4;
+      font-weight: 400;
+      p {
         margin-bottom: 30px;
-       }
-       button{
+      }
+      button {
         padding: 5px;
-        width:30px;
+        width: 30px;
         height: 30px;
         background-color: transparent;
         border: solid 1px $light;
         border-radius: 5px;
         margin-right: 3px;
-        i{
-            color: #8a8c93;
-        }
-       }
-      }
-  
-      .footer_menu {
-        grid-column: span 2;
-        padding-left: 1em;
-        
-
-        h1{
-            font-size: 18px;
-            margin-bottom: 25px;
-            font-weight: 700;
-            color: #161d42;
-        }
-        ul{
-            list-style-type: none;
-            font-weight: 400;
-            li{
-                padding-bottom: 1em;
-            }
-        }
-      }
-  
-      .copyright {
-        grid-column: 1 / span 12;
-        font-size: 12px;
-        font-weight: bold;
-        hr{
-            margin: 100px 0px 30px 0;
-            color: $light;
-            background-color: $light;
-            border: none;
-            height: 1px;
-        }
-        span{
-            margin: 0 5px 0 5px;
-            color: #a0a3ab;
-            font-weight: normal;
+        i {
+          color: #8a8c93;
         }
       }
     }
-    img{
-        outline: 1px solid greenyellow;
+
+    .footer_menu {
+      grid-column: span 2;
+      padding-left: 1em;
+
+      h1 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-weight: 700;
+        color: $dark;
+      }
+      ul {
+        list-style-type: none;
+        font-weight: 400;
+        li {
+          padding-bottom: 1em;
+        }
+      }
+    }
+
+    .copyright {
+      grid-column: 1 / span 12;
+      font-size: 12px;
+      font-weight: bold;
+      hr {
+        margin: 100px 0px 30px 0;
+        color: $light;
+        background-color: $light;
+        border: none;
+        height: 1px;
+      }
+      span {
+        margin: 0 5px 0 5px;
+        color: #a0a3ab;
+        font-weight: normal;
+      }
     }
   }
-  
+  img {
+    outline: 1px solid greenyellow;
+  }
+}
