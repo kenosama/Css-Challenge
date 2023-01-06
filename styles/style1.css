@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400&family=Roboto:wght@300;400;700&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-  margin: 15px;
+  margin: 12px;
   padding: 35px;
   width: 330px;
   height: 250px;
@@ -36,14 +36,19 @@ body {
 .card h2 {
   margin-bottom: 20px;
   font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
 }
 .card p {
   font-weight: 300;
   margin-bottom: 25px;
+  letter-spacing: 1px;
 }
 .card button {
-  padding: 15px;
+  padding: 15px 25px 15px 25px;
   background-color: #3e2895;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
   border-radius: 5px;
   color: white;
   border: solid #544494 2px;
