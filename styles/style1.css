@@ -9,14 +9,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  display: flex;
-}
-
-.half {
-  width: 49%;
-}
-
 .card {
   margin: 12px;
   padding: 35px;
