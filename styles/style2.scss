@@ -2,13 +2,39 @@
     margin: 0;
     padding: 0;
     // outline: solid 2px limegreen;
-}
-
-body{
+  }
+  
+  body {
     background-color: #FFF;
-    color: #0d0f1a;
-    .container{
+    color: #161d42;
+    width: 100vw;
+    height: 100vh;
+  
+    .container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      padding: 20px;
+  
+      .slogan {
+        grid-column: 1 / span 4;
+      }
+  
+      .footer_menu {
+        grid-column: span 2;
+        h1{
 
+        }
+        ul{
+            list-style-type: none;
+        }
+      }
+  
+      .copyright {
+        grid-column: 1 / span 12;
+      }
     }
-}
-
+    img{
+        outline: 1px solid greenyellow;
+    }
+  }
+  

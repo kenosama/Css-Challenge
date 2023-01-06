@@ -5,5 +5,27 @@
 
 body {
   background-color: #FFF;
-  color: #0d0f1a;
+  color: #161d42;
+  width: 100vw;
+  height: 100vh;
+}
+body .container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 20px;
+}
+body .container .slogan {
+  grid-column: 1/span 4;
+}
+body .container .footer_menu {
+  grid-column: span 2;
+}
+body .container .footer_menu ul {
+  list-style-type: none;
+}
+body .container .copyright {
+  grid-column: 1/span 12;
+}
+body img {
+  outline: 1px solid greenyellow;
 }/*# sourceMappingURL=style2.css.map */
