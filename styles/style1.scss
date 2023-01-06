@@ -1,56 +1,59 @@
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400&family=Roboto:wght@300;400;700&display=swap);
-$roboto: 'Roboto', sans-serif;
+$roboto: "Roboto", sans-serif;
 $purple: #3e2895;
-$noto :'Noto Sans', sans-serif;
+$noto: "Noto Sans", sans-serif;
+
 * {
-    margin: 0;
-    padding: 0;
-    // outline: solid 2px limegreen !important; // This is my CSS console log thingy
+  margin: 0;
+  padding: 0;
+  // outline: solid 2px limegreen !important; // This is my CSS console log thingy
 }
 
-body{
-    //defining a bg as close as the picture
-    background-color: #1c1c1c;
-    font-family: $roboto;
+body {
+  //defining a bg as close as the picture
+  background-color: #1c1c1c;
+  font-family: $roboto;
 }
 
 .card {
-    margin: 12px;
-    padding:35px;
-    width: 330px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: $purple;
+  margin: 12px;
+  padding: 35px;
+  width: 330px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: $purple;
+  color: white;
+
+  h1 {
     color: white;
-        h1{
-            color: white;
-            
-            margin-bottom: 25px;
 
-                span{
-                    font-size: 1.5em;
-                }
-        }
-        h2{
-            margin-bottom: 20px;
-            font-weight: bold;
-            font-family: $noto;
-            
-        }
-        p{
-            font-weight: 300; 
-            margin-bottom: 25px;
-            letter-spacing: 1px;
-        }
-        button{
-            padding: 15px 25px 15px 25px;
-            background-color: $purple;
-            font-family: $noto;
-            letter-spacing: 2px;
-            font-size: 15px;
-            border-radius: 5px;
-            color: white;
-            border: solid #544494 2px;
+    margin-bottom: 25px;
 
-        }
+    span {
+      font-size: 1.5em;
+    }
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: $noto;
+  }
+
+  p {
+    font-weight: 300;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+
+  button {
+    padding: 15px 25px 15px 25px;
+    background-color: $purple;
+    font-family: $noto;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    border: solid #544494 2px;
+  }
 }
