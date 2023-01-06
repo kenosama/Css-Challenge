@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +6,9 @@
 
 body {
   background-color: #FFF;
-  color: #161d42;
+  font-family: sans-serif;
+  letter-spacing: -0.5px;
+  color: #697397;
   width: 100vw;
   height: 100vh;
 }
@@ -16,15 +19,56 @@ body .container {
 }
 body .container .slogan {
   grid-column: 1/span 4;
+  font-weight: 400;
+}
+body .container .slogan p {
+  margin-bottom: 30px;
+}
+body .container .slogan button {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: solid 1px #697397;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+body .container .slogan button i {
+  color: #8a8c93;
 }
 body .container .footer_menu {
   grid-column: span 2;
+  padding-left: 1em;
+}
+body .container .footer_menu h1 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #161d42;
 }
 body .container .footer_menu ul {
   list-style-type: none;
+  font-weight: 400;
+}
+body .container .footer_menu ul li {
+  padding-bottom: 1em;
 }
 body .container .copyright {
   grid-column: 1/span 12;
+  font-size: 12px;
+  font-weight: bold;
+}
+body .container .copyright hr {
+  margin: 100px 0px 30px 0;
+  color: #697397;
+  background-color: #697397;
+  border: none;
+  height: 1px;
+}
+body .container .copyright span {
+  margin: 0 5px 0 5px;
+  color: #a0a3ab;
+  font-weight: normal;
 }
 body img {
   outline: 1px solid greenyellow;
